@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.headerContainer__mainHeadline {
+    background-color: #ccc;
+    transition: letter-spacing 0.3s ease, background-color 0.5s ease;
+    text-align: center;
+}
+
+.headerContainer__mainHeadline:hover,
+.section__headlineSecondary:hover {
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: 3px;
+}
+
+.section__headlineSecondary {
+    background-color: #eee;
+    transition: letter-spacing 0.3s ease, background-color 0.5s ease;
+    text-align: center;
+}
+
+.headerContainer__button:hover {
+    cursor: pointer;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+    transition: font-weight 0.3s ease;
+
+}
+
+.red:hover {
+    cursor: default;
+    font-weight: 700;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.experience {
+    border-collapse: collapse;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.experience:hover {
+    cursor: default;
+
+}
+
+.experience__tableCell {
+    border: 2px solid black;
+    vertical-align: middle;
+    min-width: 100px;
+    padding: 4px;
+    text-align: center;
+}
+
+.experience__tableTitle {
+    border: 3px solid black;
+    vertical-align: middle;
+    background-color: #ddd;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.experience__tableRow:hover {
+    font-weight: 700;
+}
+
+.experience__tableRow {
+    transition: font-weight 0.3s ease;
+}
+
+.headerContainer__photo {
+    max-width: 400px;
+    max-height: 250px;
+    margin: auto;
+}
+
+.summary {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.section {
+    line-height: 1.5;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    cursor: default;
+}
+
+.headerContainer {
+    text-align: center;
+}
