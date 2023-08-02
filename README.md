@@ -1,7 +1,7 @@
 # Welcome to my Homepage
 ## Short description
 this is a page with some info about myself
-## Screenshot of the app:
+## Screenshot of the site:
 ![app screenshot](img/demo.png)
 ## demo of the website:
 Try the [demo website here](https://wojciechluczak.github.io/homepage)
