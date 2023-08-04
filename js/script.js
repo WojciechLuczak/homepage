@@ -14,7 +14,8 @@
         photo.src = "img/image_1.jpg";
         break;
     }
-    /* 
+    /* this is previous version of coding exchange of the photo:
+    
      if (currentImage === "image_1.jpg") {
        photo.src = "img/image_2.jpg";
      } else if (currentImage === "image_2.jpg") {
@@ -23,7 +24,9 @@
        photo.src = "img/image_1.jpg";
      }*/
   }
-
+function init () {
   let przycisk = document.querySelector(".headerContainer__button");
   przycisk.addEventListener("click", changeImage);
+}
+ init();
 }

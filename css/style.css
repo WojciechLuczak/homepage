@@ -33,6 +33,15 @@ body {
 
 .headerContainer__button:hover {
     cursor: pointer;
+    background-color: rgb(0, 182, 182);
+}
+
+.headerContainer__button {
+    background-color: teal;
+    height: 40px;
+    width: 200px;
+    color:aliceblue;
+    border-radius: 5dvb;
 }
 
 .blue {
